@@ -54,6 +54,8 @@ namespace Reference
             GameManager.Instance.scoreManager.ResetScore();
             int score = GameManager.Instance.scoreManager.GetScore();
             GameManager.Instance.uiManager.SetScoreText(score);
+            GameManager.Instance.spawner.StartSpawiningObstacles();
+            GameManager.Instance.soundsManager.PlaySoundClip("game start");
         }
     }
 

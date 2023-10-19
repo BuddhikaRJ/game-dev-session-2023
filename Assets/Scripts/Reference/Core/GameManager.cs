@@ -11,6 +11,8 @@ namespace Reference
 
         public ScoreManager scoreManager;
         public UIManager uiManager;
+        public ObjectSpawner spawner;
+        public SoundsManager soundsManager;
 
         private void Awake()
         {

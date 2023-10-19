@@ -63,7 +63,13 @@ namespace Reference
             transform.position += movement * Time.deltaTime;
 
 
-            animator.speed = movement.y * 0.5f;
+            animator.speed = movement.y < 0 ? 0 : movement.y * 0.5f;
+
+            //input and sound effects
+            if (Input.GetMouseButtonDown(jumpMouseBtn))
+            {
+                GameManager.Instance.soundsManager.PlaySoundClip("propeller");
+            }
 
         }
     }
