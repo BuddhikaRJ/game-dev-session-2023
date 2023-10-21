@@ -74,7 +74,7 @@ namespace Reference
 
         }
 
-        public void Reset()
+        public void ResetValues()
         {
             transform.position = resetPosition;
             acceleration = 0f;

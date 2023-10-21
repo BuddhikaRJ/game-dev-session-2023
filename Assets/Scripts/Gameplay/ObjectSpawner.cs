@@ -36,7 +36,7 @@ namespace Reference
 
             for (int i = 0; i < obstacleCount; i++)
             {
-                obstacles[i].Reset();
+                obstacles[i].ResetValues();
             }
         }
 

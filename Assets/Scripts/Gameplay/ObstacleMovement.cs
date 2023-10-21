@@ -39,7 +39,7 @@ namespace Reference
             passedDetector.SetActive(true);
         }
 
-        public void Reset()
+        public void ResetValues()
         {
             topRock.SetActive(false);
             bottomRock.SetActive(false);

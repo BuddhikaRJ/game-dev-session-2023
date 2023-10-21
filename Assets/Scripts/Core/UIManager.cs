@@ -45,7 +45,7 @@ namespace Reference
             gameOverPanel.SetActive(false);
             mainMenuPanel.SetActive(true);
             GameState.SetState(GameStates.Menu);
-            player.Reset();
+            player.ResetValues();
         }
 
         public void OnGameStart()
