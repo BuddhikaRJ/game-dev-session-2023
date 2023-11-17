@@ -1272,7 +1272,7 @@ GameObject:
   - component: {fileID: 949733351}
   - component: {fileID: 949733350}
   m_Layer: 0
-  m_Name: sky
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1290,8 +1290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25debfb31b27ae84d88f96cde92ea356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: {x: 1, y: 0}
-  speed: 0.1
+  direction: {x: 0, y: 1}
+  speed: 0.5
   envMaterial: {fileID: 2100000, guid: 5a4573f7bed4a3149b2ee52cbbb369be, type: 2}
 --- !u!64 &949733351
 MeshCollider:
@@ -1730,7 +1730,6 @@ GameObject:
   - component: {fileID: 1163027799}
   - component: {fileID: 1163027798}
   - component: {fileID: 1163027795}
-  - component: {fileID: 1163027801}
   - component: {fileID: 1163027802}
   m_Layer: 3
   m_Name: bottomEdge
@@ -1819,18 +1818,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1163027801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1163027794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c9c5f6162327d042836c15f0a13e756, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1163027802
 BoxCollider2D:
   m_ObjectHideFlags: 0

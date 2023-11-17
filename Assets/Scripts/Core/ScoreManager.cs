@@ -10,7 +10,7 @@ namespace Reference
 
         public void AddScore(int value)
         {
-            score += value;
+            score = value;
             Debug.Log(score);
         }
 
